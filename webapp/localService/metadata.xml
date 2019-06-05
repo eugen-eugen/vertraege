@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+	xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" Version="1.0">
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="vertraege">
+			<EntityType Name="Vertrag">
+				<Key>
+					<PropertyRef Name="Vertragsnummer"/>
+				</Key>
+				<Property Name="Vertragsnummer" Nullable="false" Type="Edm.String"/>
+				<Property Name="Geschaeftspartner" Type="Edm.String"/>
+				<Property Name="Geschaeftspartnernummer" Type="Edm.String"/>
+				<NavigationProperty FromRole="From_Vertrag" Name="VertraspositionSet" Relationship="vertraege.VertragVertrasposition"
+					ToRole="To_Vertrasposition"/>
+			</EntityType>
+			<EntityType Name="Vertrasposition">
+				<Key>
+					<PropertyRef Name="VertraspositionID"/>
+					<PropertyRef Name="Vertragsnummer"/>
+				</Key>
+				<Property Name="VertraspositionID" Nullable="false" Type="Edm.String"/>
+				<Property Name="Vertragsnummer" Nullable="false" Type="Edm.String"/>
+				<Property Name="Anfallstelle" Type="Edm.String"/>
+				<Property Name="Behaeltertyp" Type="Edm.String"/>
+				<Property Name="Fraktion" Type="Edm.String"/>
+				<Property Name="Turnus" Type="Edm.String"/>
+				<Property Name="Anzahl" Type="Edm.Decimal"/>
+				<Property Name="Mengeneinheit" Type="Edm.String"/>
+				<Property Name="Gueltigkeit" Nullable="false" Type="vertraege.Gueltigkeit"/>
+				<Property Name="aktiv" Type="Edm.Boolean"/>
+				<Property Name="Entsorger" Type="Edm.String"/>
+				<Property Name="Preis" Type="Edm.Decimal"/>
+				<NavigationProperty FromRole="To_Vertrasposition" Name="Vertrag" Relationship="vertraege.VertragVertrasposition" ToRole="From_Vertrag"/>
+			</EntityType>
+			<ComplexType Name="Gueltigkeit">
+				<Property Name="GueltigVon" Type="Edm.DateTime"/>
+				<Property Name="GueltigBis" Type="Edm.DateTime"/>
+			</ComplexType>
+			<Association Name="VertragVertrasposition">
+				<End Multiplicity="1" Role="From_Vertrag" Type="vertraege.Vertrag"/>
+				<End Multiplicity="*" Role="To_Vertrasposition" Type="vertraege.Vertrasposition"/>
+				<ReferentialConstraint>
+					<Principal Role="From_Vertrag">
+						<PropertyRef Name="Vertragsnummer"/>
+					</Principal>
+					<Dependent Role="To_Vertrasposition">
+						<PropertyRef Name="Vertragsnummer"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<EntityContainer Name="default" m:IsDefaultEntityContainer="true">
+				<EntitySet EntityType="vertraege.Vertrag" Name="VertragSet"/>
+				<EntitySet EntityType="vertraege.Vertrasposition" Name="VertraspositionSet"/>
+				<AssociationSet Association="vertraege.VertragVertrasposition" Name="VertragVertraspositionSet">
+					<End EntitySet="VertragSet" Role="From_Vertrag"/>
+					<End EntitySet="VertraspositionSet" Role="To_Vertrasposition"/>
+				</AssociationSet>
+			</EntityContainer>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

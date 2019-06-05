@@ -1,0 +1,251 @@
+[{
+	"VertraspositionID": "VertraspositionID 1",
+	"Vertragsnummer": "0000000001",
+	"Anfallstelle": "In den Gärten 5, 42799 Leichlingen",
+	"Behaeltertyp": "3 m³ (cbm - Kubikmeter) Absetzcontainer",
+	"Fraktion": "Altmetall",
+	"Turnus": "monatlich",
+	"Anzahl": 9,
+	"Mengeneinheit": "Stück",
+	"Gueltigkeit": {
+		"GueltigVon": "/Date(1559426400000)/",
+		"GueltigBis": "/Date(1856037600000)/"
+	},
+	"aktiv": true,
+	"Entsorger": "Containerdienst MickyMaus",
+	"Preis": 416.31,
+	"__metadata": {
+		"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%201',Vertragsnummer='Vertragsnummer%201')",
+		"type": "vertraege.Vertrasposition"
+	},
+	"Vertrag": {
+		"__deferred": {
+			"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%201',Vertragsnummer='Vertragsnummer%201')/Vertrag"
+		}
+	}
+}, {
+	"VertraspositionID": "VertraspositionID 2",
+	"Vertragsnummer": "0000000005",
+	"Anfallstelle": "Bachstr. 89, 12345 Muren",
+	"Behaeltertyp": "Pressbehälter",
+	"Fraktion": "PPK",
+	"Turnus": "täglich",
+	"Anzahl": 6671,
+	"Mengeneinheit": "Tonnen",
+	"Gueltigkeit": {
+		"GueltigVon": "/Date(1560895200000)/",
+		"GueltigBis": "GueltigBis 2"
+	},
+	"aktiv": true,
+	"Entsorger": "You waste, we care, Ltd.",
+	"Preis": 2613.6,
+	"__metadata": {
+		"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%202',Vertragsnummer='Vertragsnummer%202')",
+		"type": "vertraege.Vertrasposition"
+	},
+	"Vertrag": {
+		"__deferred": {
+			"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%202',Vertragsnummer='Vertragsnummer%202')/Vertrag"
+		}
+	}
+}, {
+	"VertraspositionID": "VertraspositionID 3",
+	"Vertragsnummer": "0000000006",
+	"Anfallstelle": "79, Amalfi Drive, San Diego, CA",
+	"Behaeltertyp": "Bauschutt-Container",
+	"Fraktion": "Bioabfall",
+	"Turnus": "2xtäglich",
+	"Anzahl": 7960,
+	"Mengeneinheit": "Liter",
+	"Gueltigkeit": {
+		"GueltigVon": "/Date(1520895600000)/",
+		"GueltigBis": "GueltigBis 3"
+	},
+	"aktiv": false,
+	"Entsorger": "Sorglos sauber AG",
+	"Preis": 2584.86,
+	"__metadata": {
+		"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%203',Vertragsnummer='Vertragsnummer%203')",
+		"type": "vertraege.Vertrasposition"
+	},
+	"Vertrag": {
+		"__deferred": {
+			"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%203',Vertragsnummer='Vertragsnummer%203')/Vertrag"
+		}
+	}
+}, {
+	"VertraspositionID": "VertraspositionID 4",
+	"Vertragsnummer": "0000000006",
+	"Anfallstelle": "Anfallstelle 4",
+	"Behaeltertyp": "Grünnschnitt-Container",
+	"Fraktion": "PPK",
+	"Turnus": "",
+	"Anzahl": 5101,
+	"Mengeneinheit": "m3",
+	"Gueltigkeit": {
+		"GueltigVon": "GueltigVon 4",
+		"GueltigBis": "GueltigBis 4"
+	},
+	"aktiv": true,
+	"Entsorger": "Containerdienst MickyMaus",
+	"Preis": 7638.68,
+	"__metadata": {
+		"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%204',Vertragsnummer='Vertragsnummer%204')",
+		"type": "vertraege.Vertrasposition"
+	},
+	"Vertrag": {
+		"__deferred": {
+			"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%204',Vertragsnummer='Vertragsnummer%204')/Vertrag"
+		}
+	}
+}, {
+	"VertraspositionID": "VertraspositionID 5",
+	"Vertragsnummer": "0000000005",
+	"Anfallstelle": "11 Rue de Tilsitt, 75017 Paris, Frankreich",
+	"Behaeltertyp": "3 m³ (cbm - Kubikmeter) Absetzcontainer",
+	"Fraktion": "Grünschnitt",
+	"Turnus": "1/Quartal",
+	"Anzahl": 100,
+	"Mengeneinheit": "Stück",
+	"Gueltigkeit": {
+		"GueltigVon": "GueltigVon 5",
+		"GueltigBis": "GueltigBis 5"
+	},
+	"aktiv": false,
+	"Entsorger": "Sorglos sauber AG",
+	"Preis": 8688.55,
+	"__metadata": {
+		"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%205',Vertragsnummer='Vertragsnummer%205')",
+		"type": "vertraege.Vertrasposition"
+	},
+	"Vertrag": {
+		"__deferred": {
+			"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%205',Vertragsnummer='Vertragsnummer%205')/Vertrag"
+		}
+	}
+}, {
+	"VertraspositionID": "VertraspositionID 6",
+	"Vertragsnummer": "0000000001",
+	"Anfallstelle": "Sandstr. 45, 51379 Leverkusen",
+	"Behaeltertyp": "Grünnschnitt-Container",
+	"Fraktion": "PPK",
+	"Turnus": "1xjährlich",
+	"Anzahl": 9523,
+	"Mengeneinheit": "Tonnen",
+	"Gueltigkeit": {
+		"GueltigVon": "GueltigVon 6",
+		"GueltigBis": "GueltigBis 6"
+	},
+	"aktiv": true,
+	"Entsorger": "Sorglos sauber AG",
+	"Preis": 8078.05,
+	"__metadata": {
+		"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%206',Vertragsnummer='Vertragsnummer%206')",
+		"type": "vertraege.Vertrasposition"
+	},
+	"Vertrag": {
+		"__deferred": {
+			"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%206',Vertragsnummer='Vertragsnummer%206')/Vertrag"
+		}
+	}
+}, {
+	"VertraspositionID": "VertraspositionID 7",
+	"Vertragsnummer": "0000000008",
+	"Anfallstelle": "1 Hacker Way, Menlo Park, CA 94025, USA",
+	"Behaeltertyp": "40 m³ (cbm - Kubikmeter) Abrollcontainer offen und mit Deckel",
+	"Fraktion": "Altöl",
+	"Turnus": "dienstags",
+	"Anzahl": 3324,
+	"Mengeneinheit": "Liter",
+	"Gueltigkeit": {
+		"GueltigVon": "GueltigVon 7",
+		"GueltigBis": "GueltigBis 7"
+	},
+	"aktiv": false,
+	"Entsorger": "You waste, we care, Ltd.",
+	"Preis": 591.67,
+	"__metadata": {
+		"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%207',Vertragsnummer='Vertragsnummer%207')",
+		"type": "vertraege.Vertrasposition"
+	},
+	"Vertrag": {
+		"__deferred": {
+			"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%207',Vertragsnummer='Vertragsnummer%207')/Vertrag"
+		}
+	}
+}, {
+	"VertraspositionID": "VertraspositionID 8",
+	"Vertragsnummer": "0000000008",
+	"Anfallstelle": "Stollwerckstr. 9a, 51149 Köln",
+	"Behaeltertyp": "Bauschutt-Container",
+	"Fraktion": "Glass",
+	"Turnus": "2-täglich",
+	"Anzahl": 4853,
+	"Mengeneinheit": "m2",
+	"Gueltigkeit": {
+		"GueltigVon": "GueltigVon 8",
+		"GueltigBis": "GueltigBis 8"
+	},
+	"aktiv": false,
+	"Entsorger": "Containerdienst MickyMaus",
+	"Preis": 4053.58,
+	"__metadata": {
+		"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%208',Vertragsnummer='Vertragsnummer%208')",
+		"type": "vertraege.Vertrasposition"
+	},
+	"Vertrag": {
+		"__deferred": {
+			"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%208',Vertragsnummer='Vertragsnummer%208')/Vertrag"
+		}
+	}
+}, {
+	"VertraspositionID": "VertraspositionID 9",
+	"Vertragsnummer": "0000000001",
+	"Anfallstelle": "Weichselstr. 14, 51389 Leverkusen",
+	"Behaeltertyp": "40 m³ (cbm - Kubikmeter) Abrollcontainer offen und mit Deckel",
+	"Fraktion": "Altöl",
+	"Turnus": "",
+	"Anzahl": 7495,
+	"Mengeneinheit": "m",
+	"Gueltigkeit": {
+		"GueltigVon": "GueltigVon 9",
+		"GueltigBis": "GueltigBis 9"
+	},
+	"aktiv": true,
+	"Entsorger": "You waste, we care, Ltd.",
+	"Preis": 7826.71,
+	"__metadata": {
+		"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%209',Vertragsnummer='Vertragsnummer%209')",
+		"type": "vertraege.Vertrasposition"
+	},
+	"Vertrag": {
+		"__deferred": {
+			"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%209',Vertragsnummer='Vertragsnummer%209')/Vertrag"
+		}
+	}
+}, {
+	"VertraspositionID": "VertraspositionID 10",
+	"Vertragsnummer": "0000000009",
+	"Anfallstelle": "Gustav-Heinemann-Ufer, 72, Köln",
+	"Behaeltertyp": "Bauschutt-Container",
+	"Fraktion": "Bauschutt",
+	"Turnus": "",
+	"Anzahl": 3812,
+	"Mengeneinheit": "Mal",
+	"Gueltigkeit": {
+		"GueltigVon": "GueltigVon 10",
+		"GueltigBis": "GueltigBis 10"
+	},
+	"aktiv": false,
+	"Entsorger": "Sorglos sauber AG",
+	"Preis": 6152.62,
+	"__metadata": {
+		"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%2010',Vertragsnummer='Vertragsnummer%2010')",
+		"type": "vertraege.Vertrasposition"
+	},
+	"Vertrag": {
+		"__deferred": {
+			"uri": "VertraspositionSet(VertraspositionID='VertraspositionID%2010',Vertragsnummer='Vertragsnummer%2010')/Vertrag"
+		}
+	}
+}]

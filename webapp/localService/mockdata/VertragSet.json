@@ -1,0 +1,131 @@
+[{
+	"Vertragsnummer": "0000000001",
+	"Geschaeftspartner": "Adidas",
+	"Geschaeftspartnernummer": "X001",
+	"__metadata": {
+		"uri": "VertragSet('Vertragsnummer%201')",
+		"type": "vertraege.Vertrag"
+	},
+	"VertraspositionSet": {
+		"__deferred": {
+			"uri": "VertragSet('Vertragsnummer%201')/VertraspositionSet"
+		}
+	}
+}, {
+	"Vertragsnummer": "0000000002",
+	"Geschaeftspartner": "Boeing",
+	"Geschaeftspartnernummer": "X002",
+	"__metadata": {
+		"uri": "VertragSet('Vertragsnummer%202')",
+		"type": "vertraege.Vertrag"
+	},
+	"VertraspositionSet": {
+		"__deferred": {
+			"uri": "VertragSet('Vertragsnummer%202')/VertraspositionSet"
+		}
+	}
+}, {
+	"Vertragsnummer": "0000000003",
+	"Geschaeftspartner": "NASA",
+	"Geschaeftspartnernummer": "X0023",
+	"__metadata": {
+		"uri": "VertragSet('Vertragsnummer%203')",
+		"type": "vertraege.Vertrag"
+	},
+	"VertraspositionSet": {
+		"__deferred": {
+			"uri": "VertragSet('Vertragsnummer%203')/VertraspositionSet"
+		}
+	}
+}, {
+	"Vertragsnummer": "0000000004",
+	"Geschaeftspartner": "Facebook",
+	"Geschaeftspartnernummer": "X0024",
+	"__metadata": {
+		"uri": "VertragSet('Vertragsnummer%204')",
+		"type": "vertraege.Vertrag"
+	},
+	"VertraspositionSet": {
+		"__deferred": {
+			"uri": "VertragSet('Vertragsnummer%204')/VertraspositionSet"
+		}
+	}
+}, {
+	"Vertragsnummer": "0000000005",
+	"Geschaeftspartner": "Capgemini",
+	"Geschaeftspartnernummer": "X0025",
+	"__metadata": {
+		"uri": "VertragSet('Vertragsnummer%205')",
+		"type": "vertraege.Vertrag"
+	},
+	"VertraspositionSet": {
+		"__deferred": {
+			"uri": "VertragSet('Vertragsnummer%205')/VertraspositionSet"
+		}
+	}
+}, {
+	"Vertragsnummer": "0000000006",
+	"Geschaeftspartner": "Sparkasse Ibbenbüren",
+	"Geschaeftspartnernummer": "X0026",
+	"__metadata": {
+		"uri": "VertragSet('Vertragsnummer%206')",
+		"type": "vertraege.Vertrag"
+	},
+	"VertraspositionSet": {
+		"__deferred": {
+			"uri": "VertragSet('Vertragsnummer%206')/VertraspositionSet"
+		}
+	}
+}, {
+	"Vertragsnummer": "0000000007",
+	"Geschaeftspartner": "Bayer AG",
+	"Geschaeftspartnernummer": "X0027",
+	"__metadata": {
+		"uri": "VertragSet('Vertragsnummer%207')",
+		"type": "vertraege.Vertrag"
+	},
+	"VertraspositionSet": {
+		"__deferred": {
+			"uri": "VertragSet('Vertragsnummer%207')/VertraspositionSet"
+		}
+	}
+}, {
+	"Vertragsnummer": "0000000008",
+	"Geschaeftspartner": "Bijou Brigitte",
+	"Geschaeftspartnernummer": "X0028",
+	"__metadata": {
+		"uri": "VertragSet('Vertragsnummer%208')",
+		"type": "vertraege.Vertrag"
+	},
+	"VertraspositionSet": {
+		"__deferred": {
+			"uri": "VertragSet('Vertragsnummer%208')/VertraspositionSet"
+		}
+	}
+}, {
+	"Vertragsnummer": "0000000009",
+	"Geschaeftspartner": "Geschaeftspartner 9",
+	"Geschaeftspartnernummer": "X0029",
+	"__metadata": {
+		"uri": "VertragSet('Vertragsnummer%209')",
+		"type": "vertraege.Vertrag"
+	},
+	"VertraspositionSet": {
+		"__deferred": {
+			"uri": "VertragSet('Vertragsnummer%209')/VertraspositionSet"
+		}
+	}
+}, {
+	"Vertragsnummer": "0000000010",
+	"Geschaeftspartner": "Desigual",
+	"Geschaeftspartnernummer": "X00210",
+	"__metadata": {
+		"uri": "VertragSet('Vertragsnummer%2010')",
+		"type": "vertraege.Vertrag"
+	},
+	"VertraspositionSet": {
+		"__deferred": {
+			"uri": "VertragSet('Vertragsnummer%2010')/VertraspositionSet"
+		}
+	}
+}]

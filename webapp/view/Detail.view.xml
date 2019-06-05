@@ -1,0 +1,74 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:footerbar="sap.ushell.ui.footerbar" controllerName="interseroh.vertraege.controller.Detail">
+	<semantic:DetailPage id="page" navButtonPress="onNavBack" showNavButton="{device>/system/phone}" title="{i18n>detailTitle}" busy="{detailView>/busy}" busyIndicatorDelay="{detailView>/delay}">
+		<semantic:content>
+			<ObjectHeader id="objectHeader" title="{Geschaeftspartner}"/>
+			<IconTabBar id="iconTabBar" class="sapUiResponsiveContentPadding">
+				<items>
+					<IconTabFilter id="iconTabBarFilter1" icon="sap-icon://hint" tooltip="{i18n>detailIconTabBarInfo}"/>
+					<IconTabFilter id="iconTabBarFilter2" icon="sap-icon://attachment" tooltip="{i18n>detailIconTabBarAttachments}"/>
+				</items>
+			</IconTabBar>
+			<Table id="lineItemsList" width="auto" items="{VertraspositionSet}" updateFinished="onListUpdateFinished" noDataText="{i18n>detailLineItemTableNoDataText}" busyIndicatorDelay="{detailView>/lineItemTableDelay}" class="sapUiResponsiveMargin">
+				<headerToolbar>
+					<Toolbar id="lineItemsToolbar">
+						<Title id="lineItemsHeader" text="{detailView>/lineItemListTitle}"/>
+					</Toolbar>
+				</headerToolbar>
+				<columns>
+					<Column>
+						<Text text="{i18n>detailLineItemTableIDColumn}" visible="false"/>
+					</Column>
+
+				</columns>
+				<items>
+					<ColumnListItem>
+						<cells>
+							<Panel xmlns="sap.m" width="auto" expandable="true" expanded="false" id="panel0">
+							    <headerToolbar>
+							        <Toolbar id="toolbar1">
+							            <Title text="{Anfallstelle}"/>
+							            <ToolbarSpacer/>
+							            <Title text="{Fraktion}"/>
+							         </Toolbar>
+							        
+							    </headerToolbar>
+							    <content><HBox justifyContent="SpaceBetween">
+							    	<VBox>
+							    		<Label text="{i18n>detailLineItemTableUnitNumberColumn}"/>
+										<ObjectNumber  number="{ path: 'Anzahl' }" unit="{Mengeneinheit}"/>
+							    		<Label text="{i18n>priceLabel}"/>
+										<ObjectNumber number="{ path: 'Preis', formatter: '.formatter.currencyValue' }" unit="€"/>
+									</VBox>
+							    	<VBox>
+							    		<Label text="{i18n>turnusLabel}"/>
+										<Text text="{Turnus}"/>
+							    		<Label text="{i18n>validLabel}"/>
+							    		<HBox>
+											<Text text="{path: 'Gueltigkeit', formatter: '.formatter.validity' }"/>
+										</HBox>
+									</VBox>
+							        
+							    </HBox></content>
+							    </Panel>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</semantic:content>
+		<semantic:editAction>
+			<semantic:EditAction id="edit" press="onEdit"/>
+		</semantic:editAction>
+		<semantic:customFooterContent>
+			<Button enabled="true" id="deleteButton" press="onDelete" text="Delete"/>
+		</semantic:customFooterContent>
+		<semantic:sendEmailAction>
+			<semantic:SendEmailAction id="shareEmail" press="onShareEmailPress"/>
+		</semantic:sendEmailAction>
+		<semantic:shareInJamAction>
+			<semantic:ShareInJamAction id="shareInJam" visible="{FLP>/isShareInJamActive}" press="onShareInJamPress"/>
+		</semantic:shareInJamAction>
+		<semantic:saveAsTileAction>
+			<footerbar:AddBookmarkButton id="shareTile" title="{detailView>/saveAsTileTitle}"/>
+		</semantic:saveAsTileAction>
+	</semantic:DetailPage>
+</mvc:View>
